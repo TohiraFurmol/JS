@@ -91,3 +91,11 @@ scope is defined as
 > JavaScript имеет динамическую типизацию: нам не нужно вручную определять тип данных
 > значение, хранящееся в переменной. Вместо этого типы данных определяются автоматически.
 > 
+
+
+#  JavaScript Variables :
+
+1. Variable names must start with either a letter, an underscore _, or the dollar sign $.
+2. Variable names cannot start with numbers. For example:
+let 1simpleText = 'Javascript is really simple'; ❌
+console.log(1simpleText);
