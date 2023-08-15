@@ -107,12 +107,18 @@ console.log(1simpleText); ❌
 
 ## Operators IN JavaScript :
 ##### Name and Operators
-```sh     
+```sh
+
 Arithmetic                                  + , - , * , /
+
 Comparison                           == , === , >= , <= , != , !==
+
 Logical                                       || , && , !
+
 Type Conversions                            Number ("3.14")
+
 Assignment                           = , += , -= , *= , /= , ^= , %=
+
 ```
 
 # Three important topics
