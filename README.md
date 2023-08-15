@@ -75,7 +75,11 @@ scope is defined as
 > Many more...
 ```
 
-# _The 7 PRIMITIVES  DATA TYPES :
+# The 7 PRIMITIVES  DATA TYPES :
 - Number: Floating point numbers Used for decimals and integers   Let age = 23 ;
 - String: Sequence of characters - Used for text   Let firstName = 'Jonas';
 - Boolean: Logical type that can only be true or false Used for taking decisions.   Let fullAge = true;
+- Undefined: Value taken by a variable that is not yet defined ('empty value')   Let children;
+- Null: Also means 'empty value'
+- Symbol (ES2015): Value that is unique and cannot be changed (Not useful for now]
+- Bignt (ES2020): Larger integers than the Number type can hold
