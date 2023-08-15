@@ -75,7 +75,7 @@ scope is defined as
 > Many more...
 ```
 
-# The 7 PRIMITIVES  DATA TYPES :
+## The 7 PRIMITIVES  DATA TYPES :
 - Number: Floating point numbers Used for decimals and integers   Let age = 23 ;
 - String: Sequence of characters - Used for text   Let firstName = 'Jonas';
 - Boolean: Logical type that can only be true or false Used for taking decisions.   Let fullAge = true;
@@ -83,3 +83,11 @@ scope is defined as
 - Null: Also means 'empty value'
 - Symbol (ES2015): Value that is unique and cannot be changed (Not useful for now]
 - Bignt (ES2020): Larger integers than the Number type can hold
+
+> 
+> JavaScript has dynamic typing: We do not have to manually define the data type of
+> the value stored in a variable. Instead, data types are determined automatically
+>
+> JavaScript имеет динамическую типизацию: нам не нужно вручную определять тип данных
+> значение, хранящееся в переменной. Вместо этого типы данных определяются автоматически.
+> 
