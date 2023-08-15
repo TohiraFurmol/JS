@@ -9,7 +9,7 @@
 > programming language is a versatile language.
 
 # A BRIEF HISTORY OF JAVASCRIPT :
-- 1995 very first version of Javascript in just 10 days. 🫠
+- 1995 very first version of Javascript in just 10 days. 😊
 - 1996 JavScript has almost nothing to do with Java ☝🏻
 - 2009 ES5 (ECMAScript 5) is released with lots of great new features.
 - 2015 the biggest to the language ever!
