@@ -17,21 +17,40 @@
 - Release of ES2016 / ES2017 / ES2018 / ES2019 / ES2020 / ES2021 / .../ ES2089 😂
 
 
-### Var
+## Var
 ```sh
-var is used in the older versions of JavaScript
-var is function scoped (well be discussed in later tutorials).
-For example, var x;
+- var is used in the older versions
+of JavaScript
+
+- var is function scoped (well be discussed
+in later tutorials).
+
+- For example, var x;
 ```
 
 
-### Let
+## Let
 ```sh
-let is the new way of declaring variables
+- let is the new way of declaring variables
 starting ES6 (ES2015).
 
-let is block scoped (will be discussed in
+- let is block scoped (will be discussed in
 later tutorials).
 
-For example, Let y;
+- For example, Let y;
+```
+
+
+## Const
+```sh
+- const
+keyword indicates that
+the value of a variable is a
+constant ES6(ES2015).
+
+- const
+scope is defined as
+'block scoped
+
+- For example, const n
 ```
