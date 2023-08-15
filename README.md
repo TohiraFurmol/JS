@@ -43,8 +43,7 @@ later tutorials).
 
 ## Const
 ```sh
-- const
-keyword indicates that
+- const keyword indicates that
 the value of a variable is a
 constant ES6(ES2015).
 
@@ -54,3 +53,29 @@ scope is defined as
 
 - For example, const n
 ```
+
+# OBJECTS AND PRIMITIVES :
+### Value -> Objects or Primitives
+#### Primitives :
+```sh
+> Number
+> String  
+> Boolean
+> Undefined
+> Null
+> Symbol
+> Biglnt
+```
+
+#### Objects :
+```sh
+> Object literal
+> Arrays
+> Functions
+> Many more...
+```
+
+
+
+
+
