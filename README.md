@@ -106,8 +106,65 @@ console.log(1simpleText); ❌
 
 
 ## Operators IN JavaScript :
-##### Name                           ##### Operators
+##### Name and Operators
 ```sh     
 Arithmetic                                  + , - , * , /
 Comparison                           == , === , >= , <= , != , !==
+Logical                                       || , && , !
+Type Conversions                            Number ("3.14")
+Assignment                           = , += , -= , *= , /= , ^= , %=
+```
+
+# Three important topics
+- CONDITIONS
+- LOOPS
+- FUNCTIONS
+
+
+# 1.CONDITION If/else statement :
+#### 1st Condition is true :
+```sh
+let number = 2;
+if (number > 0)
+{
+   // code
+}
+else if (number == 0 ) {
+   // code
+}
+else {
+    //code
+}
+```
+
+
+#### 2. 2st Condition is true :
+```sh
+let number = 0;
+if (number > 0)
+{
+   // code
+}
+else if (number == 0 ) {
+   // code
+}
+else {
+    //code
+}
+```
+
+
+#### All Condition are false :
+```sh
+let number = -2;
+if (number > 0)
+{
+   // code
+}
+else if (number == 0 ) {
+   // code
+}
+else {
+    //code
+}
 ```
