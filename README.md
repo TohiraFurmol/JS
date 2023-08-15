@@ -96,6 +96,10 @@ scope is defined as
 #  JavaScript Variables :
 
 1. Variable names must start with either a letter, an underscore _, or the dollar sign $.
-2. Variable names cannot start with numbers. For example:
-let 1simpleText = 'Javascript is really simple'; ❌
-console.log(1simpleText);
+2. Variable names cannot start with numbers. For example :
+let 1simpleText = 'Javascript is really simple'; 
+console.log(1simpleText); ❌
+
+- Let text = 'Hello World'  ✅
+- Let _text = 'Hello World' ✅
+- Let $text = 'Hello World' ✅
