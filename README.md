@@ -106,8 +106,8 @@ console.log(1simpleText); ❌
 
 
 ## Operators IN JavaScript :
-```sh
-Name                                         operators
+##### Name                           ##### Operators
+```sh     
 Arithmetic                                  + , - , * , /
 Comparison                           == , === , >= , <= , != , !==
 ```
