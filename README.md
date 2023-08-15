@@ -79,6 +79,3 @@ scope is defined as
 > Number: Floating point numbers Used for decimals and integers   Let age = 23 
 > String: Sequence of characters - Used for text   Let firstName = 'Jonas';
 > Boolean: Logical type that can only be true or false Used for taking decisions.   Let fullAge = true;
--
--
--
