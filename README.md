@@ -8,6 +8,7 @@
 > applications. Therefore, it can be considered that the JavaScript 
 > programming language is a versatile language.
 
+
 # A BRIEF HISTORY OF JAVASCRIPT :
 - 1995 very first version of Javascript in just 10 days.
 - 1996 JavScript has almost nothing to do with Java ☝🏻
@@ -15,9 +16,22 @@
 - 2015 the biggest to the language ever!
 - Release of ES2016 / ES2017 / ES2018 / ES2019 / ES2020 / ES2021 / .../ ES2089 😂
 
+
 ### Var
 ```sh
 var is used in the older versions of JavaScript
 var is function scoped (well be discussed in later tutorials).
 For example, var x;
+```
+
+
+### Let
+```sh
+let is the new way of declaring variables
+starting ES6 (ES2015).
+
+let is block scoped (will be discussed in
+later tutorials).
+
+For example, Let y;
 ```
