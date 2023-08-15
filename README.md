@@ -103,3 +103,11 @@ console.log(1simpleText); ❌
 - Let text = 'Hello World'  ✅
 - Let _text = 'Hello World' ✅
 - Let $text = 'Hello World' ✅
+
+
+## Operators IN JavaScript :
+```sh
+Name                                         operators
+Arithmetic                                  + , - , * , /
+Comparison                           == , === , >= , <= , != , !==
+```
