@@ -100,7 +100,7 @@ scope is defined as
 let 1simpleText = 'Javascript is really simple'; 
 console.log(1simpleText); ❌
 
-- Let text = 'Hello World'   ✅
+- Let text = 'Hello World'  ✅
 - Let _text = 'Hello World' ✅
 - Let $text = 'Hello World' ✅
 
@@ -174,3 +174,5 @@ else {
     //code
 }
 ```
+
+
