@@ -122,9 +122,9 @@ Assignment                           = , += , -= , *= , /= , ^= , %=
 ```
 
 # Three important topics
-- CONDITIONS
-- LOOPS
-- FUNCTIONS
+- CONDITIONS : If , Else , Swich
+- LOOPS : For , While , Dowhile
+- FUNCTIONS : function declaration , function Expression , Immediately Invoked function Expression (IIFE) 
 
 
 # 1.CONDITION If/else statement :
@@ -176,3 +176,33 @@ else {
 ```
 
 
+#  function declaration
+```sh
+function calcRectArea (width,height){
+      return width * height
+}
+
+log.(calcRectArea(5,6))
+
+// output 30
+```
+
+
+# function expression 
+```sh
+// anonymous function
+let anonymous = function (parametr){
+       return parametr
+}
+anonymous ("hi")
+
+
+
+// arrow function
+let arrow = (parametr)=>{
+       return parametr
+}
+log.(arrow("hi"))
+```
+
+# Thanks That’s it ♥️ :)
