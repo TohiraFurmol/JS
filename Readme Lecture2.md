@@ -64,8 +64,9 @@ concole.log(millenial)
 
 
 ```sh
-function declarations               Hoisted✅            Actual function           block scope
-
+function declarations                 Hoisted✅            Actual function           block scope
+var variables                         Hoisted✅               undefined               Function
+let and const variables            🚫not Hoisted                 TDZ                    Block
 
 ```
 
