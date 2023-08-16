@@ -73,4 +73,22 @@ let and const variables            🚫not Hoisted                 TDZ          
 
 
 
+## Hoisting – Variable (var) 
+```sh
+a = 2
+var a
+console.log(a)
+```
 
+
+## Hoisting – function declaration
+```sh
+foo()
+function foo(){
+    console.log(a)
+    var a = 2
+}
+```
+
+
+⭐️Temporal dead zone, let and const⭐️
