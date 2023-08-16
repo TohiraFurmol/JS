@@ -46,3 +46,29 @@ if(year >= 1981 && year <= 1996){
 }
 concole.log(millenial)
 ```
+
+
+# what is Hoisting in JavaScript ?
+
+> JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions,
+> variables, classes, or imports to the top of their scope, prior to execution of the code.
+>
+> 
+> Hoisting is a JavaScript mechanism where variables and function 
+> declarations are moved to the top of their scope before code 
+> execution.
+>
+> 
+> Hoisting in JavaScript is a behavior in which a function or a variable 
+> can be used before declaration.
+
+
+```sh
+function declarations               Hoisted✅            Actual function           block scope
+
+
+```
+
+
+
+
