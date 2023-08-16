@@ -68,7 +68,7 @@ function declarations                 Hoisted✅            Actual function     
 
 var variables                         Hoisted✅               undefined               Function
 
-let and const variables            🚫not Hoisted                 TDZ                    Block
+let and const variables             ❌not Hoisted                 TDZ                    Block
 ```
 
 
