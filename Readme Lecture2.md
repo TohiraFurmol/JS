@@ -92,3 +92,16 @@ function foo(){
 
 
 ### ⭐️Temporal dead zone, let and const⭐️
+
+
+# what is Recursion in JavaScript ?
+> Recursion is when a function calls itself until someone stops it.
+```sh
+function recurse(sum){
+    if(sum==0){
+        return 0
+    }
+    return sum + recurse(sum-1)
+}
+console.log(recurse(5))
+```
