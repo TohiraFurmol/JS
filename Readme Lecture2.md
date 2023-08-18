@@ -129,3 +129,4 @@ function one(a) {
 console.log(one(1)(2)(3))
 
 ```
+# Thanks That’s it ♥️ :)
