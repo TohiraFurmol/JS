@@ -93,8 +93,6 @@ function foo(){
 
 ### ⭐️Temporal dead zone, let and const⭐️
 
-
-
 # what is Recursion in JavaScript ?
 > Recursion is when a function calls itself until someone stops it.
 ```sh
@@ -105,4 +103,29 @@ function recurse(sum){
     return sum + recurse(sum-1)
 }
 console.log(recurse(5))
+```
+
+# what is Closure in JavaScript ?
+> A closure is the combination of a function bundled together (enclosed) with references to 
+> its surrounding state (the lexical environment). In other words, a closure gives you 
+> access to an outer function's scope from an inner function
+```sh
+function one(){
+    return function second(){
+        return "hello"
+    }
+}
+console.log(one()())
+
+
+
+function one(a) {
+  return function second(b) {
+    return function third(c){
+        return a+b+c
+    }
+  }
+}
+console.log(one(1)(2)(3))
+
 ```
