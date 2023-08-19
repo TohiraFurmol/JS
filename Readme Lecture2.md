@@ -132,8 +132,16 @@ console.log(one(1)(2)(3))
 # Thanks That’s it ♥️ :)
 
 
-> String programming is always evolving.  New programming languages ​​have replaced the old ones and it will be beneficial for people to take programming courses  > and learn programming professionally to really flourish in the world of technology.
+> String programming is always evolving.
+> New programming languages ​​have replaced the old ones and it will be beneficial for people to take programming courses and learn programming professionally
+> to really flourish in the world of technology.
 > A programming training course should teach both hard and soft skills at the same time.
 
+##### How should a programming training course be ?
+```sh
+String programming is always evolving.
+20 years ago, no computer science student would have imagined that programming would progress like this.
+But in recent years, programming has become a hot topic in the world of technology, and with the evolution of computer programming languages, it is clear that there will be certain programming languages.  New programming languages ​​have replaced the old ones and it will be beneficial for people to take programming courses and learn programming professionally to really flourish in the world of technology.
+```
 
 
