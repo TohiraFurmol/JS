@@ -137,9 +137,23 @@ console.log(one(1)(2)(3))
 > to really flourish in the world of technology.
 > A programming training course should teach both hard and soft skills at the same time.
 
-##### How should a programming training course be ?
+#### How should a programming training course be ?
 ```sh
-String programming is always evolving.  20 years ago, no computer science student would have imagined that programming would progress like this.  But in recent years, programming has become a hot topic in the world of technology, and with the evolution of computer programming languages, it is clear that there will be certain programming languages.  New programming languages   have replaced the old ones and it will be beneficial for people to take programming courses and learn programming professionally to really flourish in the world of technology.
+String programming is always evolving.
+20 years ago, no computer science student would have imagined that programming would progress like this.
+But in recent years, programming has become a hot topic in the world of technology,
+and with the evolution of computer programming languages, it is clear that there will be certain programming languages.
+New programming languages have replaced the old ones and it will be beneficial for people to take programming courses and learn
+programming
+professionally to really flourish in the world of technology.
 ```
-
-
+#### Choosing a programming training course :
+```sh
+You must have seen people who talk about programming classes and say that programming
+courses are hard and difficult and in the end they talk about their failure and even withdrawing from those classes.
+A good reason to be afraid of participating in a There is a programming course if your level of computer knowledge is lower than the course.
+People who tell these stories usually make mistakes in choosing programming courses
+```
+#### When choosing a programming training course, you should think about three things :
+- Your computer knowledge level and course level
+- Applicability of course topics. 3-Achieving a competitive advantage in the field of employment after the end of the course
