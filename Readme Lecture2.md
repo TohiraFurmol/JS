@@ -130,3 +130,10 @@ console.log(one(1)(2)(3))
 
 ```
 # Thanks That’s it ♥️ :)
+
+
+> String programming is always evolving.  New programming languages ​​have replaced the old ones and it will be beneficial for people to take programming courses  > and learn programming professionally to really flourish in the world of technology.
+> A programming training course should teach both hard and soft skills at the same time.
+
+
+
