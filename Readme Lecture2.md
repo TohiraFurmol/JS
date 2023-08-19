@@ -143,7 +143,8 @@ String programming is always evolving.
 20 years ago, no computer science student would have imagined that programming would progress like this.
 But in recent years, programming has become a hot topic in the world of technology,
 and with the evolution of computer programming languages, it is clear that there will be certain programming languages.
-New programming languages have replaced the old ones and it will be beneficial for people to take programming courses and learn
+New programming languages have replaced the old ones and it will be beneficial for people to take programming courses
+and learn
 programming
 professionally to really flourish in the world of technology.
 ```
@@ -151,9 +152,26 @@ professionally to really flourish in the world of technology.
 ```sh
 You must have seen people who talk about programming classes and say that programming
 courses are hard and difficult and in the end they talk about their failure and even withdrawing from those classes.
-A good reason to be afraid of participating in a There is a programming course if your level of computer knowledge is lower than the course.
+A good reason to be afraid of participating in a There is a programming course if your level of computer knowledge is
+lower than the course.
 People who tell these stories usually make mistakes in choosing programming courses
 ```
 #### When choosing a programming training course, you should think about three things :
 - Your computer knowledge level and course level
 - Applicability of course topics. 3-Achieving a competitive advantage in the field of employment after the end of the course
+
+#### .  Before choosing a programming course, measure the level of applicability and the competitive advantage of the
+course.
+```sh
+For example, ask yourself which courses are more compatible with my level of knowledge or if I can use what
+I have learned after finishing the course?  Will my current course give me a competitive advantage?  In addition
+to these three things, programming training courses should have a set of features in order to provide better training to
+trainees.
+```
+#### A programming training course should teach hard and soft skills simultaneously 
+```sh
+Having a complete set of hardware skills such as JAVA, Python and C++ is necessary but not sufficient for programmers.
+Some people become a successful programmer more than others through their lifestyle, previous job, talents or
+environment.  Why is this so?  It seems that just learning specific programming languages   does not make a
+successful programmer.
+```
