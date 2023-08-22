@@ -51,7 +51,7 @@ Math.pow ()    ->  (2,2) = 4  ba daraja mebardorad
 Math.sqrt ()   ->  (16)  = 4 az resha mebrora
 Math.abc ()    ->  -2 = 2   ,   -5 = 5   ,   -3 = 3
 Math.random () -> random()*10 = 4.051126874036138
-isNaN = javobi ba dast omadagi mo agar NaN boshad true ba mo barmegardonad naboshad false bar megardonad .
+⭐️ isNaN = javobi ba dast omadagi mo agar NaN boshad true ba mo barmegardonad naboshad false bar megardonad .
 ```
 # What is Array in Javascript ?
 > Array : kalecsiya hoi ki hama namud znacheni hoyashon hast hato khudi Array .
