@@ -63,10 +63,10 @@ unshift () az avali masiv element ro izofa mekunad va masivi asosi ro alish meku
 join () faqat metod array ast monan string ast bo in farq ki in metod parametr megirad va masiv asosi
 ro alish namekunad .
 splice () 3ta parametr megira (stard/delet/dabavit) masiv asosi ro alish mekunad .
-forEach () yakta parametr megira kalbec , kalbeksh 3ta parametr megira (element,index,arr) .
-map () yakta parametr megira kalbec , kalbeksh 3ta parametr megira (element,index,arr) masiv asosi ro kor
+forEach () yakta parametr megira kalbec , kalbeksh 3ta (element,index,arr) va return nadora.
+map () yakta parametr megira kalbec , kalbeksh 3ta (element,index,arr) masiv asosi ro kor
 nadora yak masivi nav ba mo medihad .
-find () yak kalbek megira kalbek 3ta parametr megira (element,index,arr) vobasta ba sharti mo avalin
+find () yak kalbek megira kalbeksh 3ta (element,index,arr) vobasta ba sharti mo avalin
 javob ro ba mo barmegardonad .
 filter () mekobad hamai element hoi ki mo da darkor ast ro yofta ba mo hamasha masivi nav karda medihad . 
 ```
