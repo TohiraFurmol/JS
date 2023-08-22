@@ -38,7 +38,7 @@ includes () parametr megira 2 javob dora true , false agar parametri mo da tugri
 tostring () parametr namegira tamomi metod hoi moro ba string megardonad 
 indexOf () 1 dona parametr megirad indexi ki dar parametr menavisem ro ba mo meguyad ki chandum index ast .
 repeat () 1,2,3... chand parametri ki navisem ro takror kardan megirad 
-⭐️ Length 
+⭐️ Length darozi harf ho ro hisob karda ba mo meguyad va be () ast .
 ```
 # Number Methods :
 ```sh
