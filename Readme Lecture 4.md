@@ -39,4 +39,9 @@ console.log(object.keys(obj));
 - Alone, this refers to the global object.
 - in the function, this refers to the global object.
 - in the function, in strict mode, this is undefined                                                                                                                   
-                         （ ^.^ ）↗⭐️ this is NOT a variable. It is a keyword. You cannot change the value of this.
+（ ^.^ ）⭐️ this is NOT a variable. It is a keyword. You cannot change the value of this.
+
+# what is new Date() in JavaScript ?
+```sh
+
+```
