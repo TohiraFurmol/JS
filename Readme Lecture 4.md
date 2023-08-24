@@ -39,4 +39,4 @@ console.log(object.keys(obj));
 - Alone, this refers to the global object.
 - in the function, this refers to the global object.
 - in the function, in strict mode, this is undefined
-(☞ﾟヮﾟ)☞⭐️ this is NOT a variable. It is a keyword. You cannot change the value of this.
+- (☞ﾟヮﾟ)☞⭐️ this is NOT a variable. It is a keyword. You cannot change the value of this.
