@@ -1,0 +1,283 @@
+// Task 1
+// function getFirstValue(n){
+//     return n.shift()
+// }
+// console.log(getFirstValue([1,2,3]))
+// console.log(getFirstValue([80, 5, 100]))
+// console.log(getFirstValue([-500, 0, 50]))
+
+// function getFirstValue(arr){
+//     let [a] = arr
+//     return a ;
+// }
+// console.log(getFirstValue([1,2,3]))
+// console.log(getFirstValue([80, 5, 100]))
+// console.log(getFirstValue([-500, 0, 50]))
+
+// Task 2
+// function makePair(a,b){
+//     let c = []
+//     c.push(a,b)
+//     return c
+// }
+// console.log(makePair(1,2))
+
+// function get2(...arr){
+//     return arr.reverse()
+// }
+// console.log(get2(1,2))
+
+// Task 3
+// function reverse(...arr) {
+//   return arr.reverse();
+// }
+// console.log(reverse(1, 2))
+// console.log(reverse(9, 9, 2, 3, 4))
+
+// Task 4
+// function incrementItems(n) {
+//   return n.map(function (elem, index, arr) {
+//     return elem + 1;
+//   });
+// }
+// console.log(incrementItems([0, 1, 2, 3]));
+// console.log(incrementItems([2, 4, 6, 8]));
+
+// Task 5
+// function getLastItem (a){
+//     return a.pop()
+// }
+// console.log(getLastItem([1, 2, 3]))
+// console.log(getLastItem(["cat", "dog", "duck"]))
+// console.log(getLastItem([true, false, true]))
+
+// function getLastItem(a) {
+//   return a.at(-1);
+// }
+// console.log(getLastItem([1, 2, 3]));
+// console.log(getLastItem(["cat", "dog", "duck"]));
+// console.log(getLastItem([true, false, true]));
+
+// Task 6
+//  function arrayToString (a){
+//     return a.join ("")
+// }
+// console.log(arrayToString([1, 2, 3, 4, 5, 6]));
+// console.log(arrayToString(["a", "b", "c", "d", "e", "f"]));
+// console.log(arrayToString([1, 2, 3, "a", "s", "dAAAA"]));
+
+// Task 7
+// function check (a,b){
+//     return a.includes(b)
+// }
+// console.log(check ([1, 2, 3, 4, 5], 3));
+// console.log(check ([1, 1, 2, 1, 1], 3));
+// console.log(check ([5, 5, 5, 6], 5));
+
+// Task 8
+// function findIndex (a,b){
+//     return a.indexOf(b)
+// }
+// console.log(findIndex(["hi", "edabit", "fgh", "abc"], "fgh"));
+// console.log(findIndex(["Red", "blue", "Blue", "Green"], "blue"));
+// console.log(findIndex(["a", "g", "y", "d"], "d"));
+
+// Task 9
+// function concat(a,b){
+//     return a.concat(b)
+// }
+// console.log(concat([1, 3, 5], [2, 6, 8]))
+// console.log(concat([7, 8], [10, 9, 1, 1, 2]))
+// console.log(concat([4, 5, 1], [3, 3, 3, 3, 3]))
+
+// Task 10
+// function toNumberArray (a){
+//     let b = a.map(myFunct)
+//     function myFunct (x){
+//         return Number(x)
+//     }
+//     return b
+// }
+// console.log(toNumberArray (["9.4", "4.2"]))
+// console.log(toNumberArray (["91", "44"]))
+// console.log(toNumberArray (["9.5", "8.8"]))
+
+// Task 12
+//  function parseArray (a){
+//     let b = a.map((e) => {
+//         return e.toString()
+//     })
+//     return b
+// }
+// console.log(parseArray([1, 2, "a", "b"]))
+// console.log(parseArray(["abc", 123, "def", 456]))
+// console.log(parseArray([1, 2, 3, 17, 24, 3, "a", "123b"]))
+
+// Task 11
+// function sum(a){
+//     let res = a.reduce(function(n,m){
+//         return n+m
+//     })
+//     return res
+// }
+// console.log(sum([1,2,3,4,5]))
+// console.log(sum([-1, 0, 1]))
+// console.log(sum([0, 4, 8, 12]))
+
+// Task 11
+// function sum(a){
+//     return a.reduce((a,b) => a+b , 0)
+// }
+// console.log(sum([1,2,3,4,5]))
+// console.log(sum([-1, 0, 1]))
+// console.log(sum([0, 4, 8, 12]))
+
+
+// Task 12 **********************
+// function arrBetween (a,b,c){
+//     let res = c.filter (myFun)
+//     function myFun (value){
+//         return value > a && value < b
+//     }
+//     return res
+// }
+// console.log(arrBetween(3, 8, [1, 5, 95, 0, 4, 7]))
+// console.log(arrBetween(1, 10, [1, 10, 25, 8, 11, 6]))
+// console.log(arrBetween(7, 32, [1, 2, 3, 78]))
+
+
+
+
+// Task 13
+// function arrayValuesTypes (a){
+//     res = a.map (function (val){
+//         return typeof(val)
+//     })
+//     return res
+// }
+// console.log(arrayValuesTypes([1, 2, "null", []]));
+// console.log(arrayValuesTypes(["214", true, false, 2.15, [], null]));
+// console.log(arrayValuesTypes([21.1, "float", "array", ["I’m array"], true, 214]))
+
+// Task 14
+// function wordLengths(n){
+//     res = n.map(function(val){
+//         return val.length
+//     })
+//     return res
+// }
+// console.log(wordLengths(["hello", "world"]))
+// console.log(wordLengths(["Halloween", "Thanksgiving", "Christmas"]))
+// console.log(wordLengths(["She", "sells", "seashells", "down", "by", "the"]))
+
+// Task 15
+// function checkSquareAndCube(a){
+//     if (Math.sqrt (a[0])==(Math.cbrt (a[1]))) return true
+//     else return false
+// }
+// console.log(checkSquareAndCube([4, 8]))
+// console.log(checkSquareAndCube([16, 48]))
+// console.log(checkSquareAndCube([9, 27]))
+
+// Task 16
+// function invertArray(n){
+//     res = n.map(function(val){
+//         return -1*val
+//     })
+//     return res
+// }
+// console.log(invertArray([1,2,3,4,5]))
+// console.log(invertArray([1,-2,3,-4,5]))
+// console.log(invertArray([]))
+
+// Task 17
+// function getMultipliedArr(n){
+//     res = n.map(function(val){
+//         return 2*val
+//     })
+//     return res
+// }
+// console.log(getMultipliedArr([2,5,3]))
+// console.log(getMultipliedArr([1,86,-5]))
+// console.log(getMultipliedArr([5,382,0]))
+
+// Task 18
+// function getSumOfItems(n){
+//     res = n.reduce((a,b)=>{
+//         return a+b
+//     })
+//     return res
+// }
+// console.log(getSumOfItems([2,7,4]))
+// console.log(getSumOfItems([45,3,0]))
+// console.log(getSumOfItems([-2,84,23]))
+
+// Task 19
+// function forbiddenLetter (b, arr){
+//     let a = arr.join("")
+//     let res = a.includes(b)
+//     return !res
+// }
+// console.log(forbiddenLetter("r", ["rock", "paper", "scissors"]));
+// console.log(forbiddenLetter("a", ["spoon", "fork", "knife"]));
+// console.log(forbiddenLetter("m", []));
+
+// Task 20
+// function sumFive (a){
+//     arr = a.filter (elem => elem > 5)
+//     if (arr.length > 0) {
+//         let res = arr.reduce ((x,y)=>{
+//             return x+y
+//         })
+//         return res
+//     }
+//     else return 0
+// }
+// console.log(sumFive([1, 5, 20, 30, 4, 9, 18]))
+// console.log(sumFive([1, 2, 3, 4]))
+// console.log(sumFive([10, 12, 28, 47, 55, 100]))
+
+// function sumFive(a){
+//     return a.filter((e)=>{
+//         return e>5
+//     }).reduce((a,b)=>a+b,0)
+// }
+// console.log(sumFive([1, 5, 20, 30, 4, 9, 18]))
+// console.log(sumFive([1, 2, 3, 4]))
+// console.log(sumFive([10, 12, 28, 47, 55, 100]))
+
+// Task 21
+// function filterArray (a){
+//     let res = a.filter (elem => typeof (elem) == "number")
+//     return res
+// }
+// console.log(filterArray([1, 2, 3, "a", "b", 4]))
+// console.log(filterArray(["A", 0, "Edabit", 1729, "Python", "1729"]))
+// console.log(filterArray(["Nothing", "here"]))
+
+// Task 22
+// function evenOrOdd (a){
+//     if (a.length==0) return "Even"
+//     else {
+//         let res = a.reduce ((x,y)=>{
+//             return x+y
+//         })
+//         if (res%2==0) return "Even"
+//         else return "Odd"
+//     }
+// }
+// console.log(evenOrOdd([1]));
+// console.log(evenOrOdd([]));
+// console.log(evenOrOdd([0, 1, 5]));
+
+// Task 23
+// function rangeOfNum (a,b){
+//     let c = []
+//     for (let i=a+1; i<b; i++){
+//         c.push(i)
+//     }
+//     return c
+// }
+// console.log(rangeOfNum(2, 4))
+// console.log(rangeOfNum(5, 9))
+// console.log(rangeOfNum(2, 11))
