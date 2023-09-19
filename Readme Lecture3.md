@@ -60,13 +60,32 @@ Math.random () -> random()*10 = 4.051126874036138
 push () masiv asosi ro alish mekunad az okhir masiv yagon element izofa mekunad .
 pop () yagon parametr namegira az okhiri masiv element ro udalit mekunad va masiv asosi ro alish mekunad .
 unshift () az avali masiv element ro izofa mekunad va masivi asosi ro alish mekunad .
+shift () parametr namegirad az avali masiv yak dona element ro udalit mekunad .
+concat () az 2 yo ziyod tar string va yo array ro ba ham mechasponad .
+includes () dunboli hamon elementi hast ki mo khostem agar yoft true barmegardona dar aksi holat false barmegardona.
+indexof () yak dona parametr megirad va ba mo meguyad ki elementi khostagi mo indexsash chand ast .
 join () faqat metod array ast monan string ast bo in farq ki in metod parametr megirad va masiv asosi
 ro alish namekunad .
+slice ()  start , end dorad 2 dona parametr megirad raqami minusa da kor mekunad masiv asosi ro alish namekna .
 splice () 3ta parametr megira (stard/delet/dabavit) masiv asosi ro alish mekunad .
-forEach () yakta parametr megira kalbec , kalbeksh 3ta (element,index,arr) va return nadora.
+Rest () (...arr) hamai elemento ro ba mo masiv karda barmegaardonad .
+spred () monand rest ast amo in method az masiv khorij karda elemento ra ba mo barmegaardonad .
+to string () hama namud element ro sreing karda ba mo barmegardonad .
+to Reversed () chapanai revers asr va masivi asosi ro kor nadorad .
+sort () yak kalbek megira kalbeksh 2ta parametr megirad munazam mekunad ba az 1 to 9 kor mekunad va
+masivi asosi ro alish mekunad .
+to sorted () chapanai sort ast az 1 to benihoyat kor mekunad va masivi asosi ro kor nadora .
+forEach () yakta parametr megira kalbec , kalbeksh 3ta (element,index,arr) va return nadora .
 map () yakta parametr megira kalbec , kalbeksh 3ta (element,index,arr) masiv asosi ro kor
 nadora yak masivi nav ba mo medihad .
+reduce () yakta parametr megira kalbec kalbeksh 2 ta element megira va baroi 1 javob bargardondan ast .
 find () yak kalbek megira kalbeksh 3ta (element,index,arr) vobasta ba sharti mo avalin
 javob ro ba mo barmegardonad .
-filter () mekobad hamai element hoi ki mo da darkor ast ro yofta ba mo hamasha masivi nav karda medihad . 
+filter () mekobad hamai element hoi ki mo da darkor ast ro yofta ba mo hamasha masivi nav karda medihad .
+
+⭐️Destructuring () element ho ro metavon rangi velebel girift :
+{
+    let arr = [12,3]
+    let [a,b,c]=arr
+}
 ```
