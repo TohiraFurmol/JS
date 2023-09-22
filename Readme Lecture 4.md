@@ -43,5 +43,21 @@ console.log(object.keys(obj));
 
 # what is new Date() in JavaScript ?
 ```sh
-
+- new Date()
+- new Date(miliseconds)
+- new Date(Date string)
+- new Date(year,month,day,hours,minutes,seconds,miliseconds)
+```
+### Method 
+```sh
+getFullYear()
+getMonth()
+getDate()
+getHours()
+getMinutes()
+getUTCDate()
+setFullYear()
+setMonth()
+setDate()
+setUTCDate()
 ```
