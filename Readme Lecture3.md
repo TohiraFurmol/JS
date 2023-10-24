@@ -63,16 +63,17 @@ unshift () az avali masiv element ro izofa mekunad va masivi asosi ro alish meku
 shift () parametr namegirad az avali masiv yak dona element ro udalit mekunad .
 concat () az 2 yo ziyod tar string va yo array ro ba ham mechasponad .
 includes () dunboli hamon elementi hast ki mo khostem agar yoft true barmegardona dar aksi holat false barmegardona.
-indexof () yak dona parametr megirad va ba mo meguyad ki elementi khostagi mo indexsash chand ast .
-join () faqat metod array ast monan string ast bo in farq ki in metod parametr megirad va masiv asosi
+indexof () yak dona parametr megirad va ba mo meguyad ki elementi khostagi mo indexsash chandm ast .
+join () faqat metod array ast monandi string ast bo in farq ki in metod parametr megirad va masiv asosi
 ro alish namekunad .
 slice ()  start , end dorad 2 dona parametr megirad raqami minusa da kor mekunad masiv asosi ro alish namekna .
 splice () 3ta parametr megira (stard/delet/dabavit) masiv asosi ro alish mekunad .
 Rest () (...arr) hamai elemento ro ba mo masiv karda barmegaardonad .
-spred () monand rest ast amo in method az masiv khorij karda elemento ra ba mo barmegaardonad .
-to string () hama namud element ro sreing karda ba mo barmegardonad .
-to Reversed () chapanai revers asr va masivi asosi ro kor nadorad .
-sort () yak kalbek megira kalbeksh 2ta parametr megirad munazam mekunad ba az 1 to 9 kor mekunad va
+spread () monand rest ast amo in method az masiv khorij karda elemento ra ba mo barmegaardonad .
+to string () hama namud element ro string karda ba mo barmegardonad .
+reverse () raqam ho ro chapana mekunad va masivi asosi ro alish mekunad .
+to Reversed () chapanai revers ast va masivi asosi ro kor nadorad .
+sort () yak kalbek megira kalbeksh 2ta parametr megirad munazam mekunad va az 1 to 9 kor mekunad va
 masivi asosi ro alish mekunad .
 to sorted () chapanai sort ast az 1 to benihoyat kor mekunad va masivi asosi ro kor nadora .
 forEach () yakta parametr megira kalbec , kalbeksh 3ta (element,index,arr) va return nadora .
