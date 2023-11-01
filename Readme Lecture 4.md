@@ -50,9 +50,6 @@ console.log(object.keys(obj));
 ```
 ### Method 
 ```sh
-getFullYear()    x3
-.
-
 getFullYear() sol ro bar asosi zamon hozira daryoft mekunad .
 getMonth() tibqi zamoni hozira moh ro az 0 to 11 daryoft mekunad .
 getDate() ruzi moh ro bar asosi zamoni hozira daryoft mekunad .
@@ -60,8 +57,8 @@ getDay() ruzi hafta (0,6) bar asosi zamoni mahali daryoft mekunim .
 getHours() soat ro tibqi zamoni hozira az 0 to 23 daryoft mekunad .
 getMinutes() daqiqa ro tibqi zamoni hozira az 0 to 59 daryoft mekunad .
 getUTCDate() ruz hoi moh ro ba mo barmegardonad.
-setFullYear() ba asosi parametri mondagi mo kor mekunad va mo metadonem sol yo ruz ro alish kunem .
-setMonth() 
-setDate()
+setFullYear() ba asosi parametri mondagi mo kor mekunad va mo metavonem sol ro alish kunem .
+setMonth() ba asosi parametri mondagi mo kor mekunad va mo metavonem moh ro alish kunem .
+setDate() ba asosi parametri mondagi mo kor mekunad va mo metavonem ruz ro alish kunem .
 setUTCDate()
 ```
