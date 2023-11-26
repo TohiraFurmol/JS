@@ -1,3 +1,4 @@
+Part One
 // Recursion
 // Task 1
 // function recurse(sum){
@@ -160,3 +161,125 @@ function sum(a = 0) {
 // console.log(sum(2)(3)(4)()()(6))
 // console.log(sum(2)()()(2)(2)(1))
 // console.log(sum(1)()(4)()()(6))
+
+__________________________________________________________________________________________
+Part Two
+
+// 1
+// function doubleChar(a){
+//     let res = ""
+//     for(let i=0; i<a.length; i++){
+//         res += a[i].replace(a[i], a[i]+a[i])
+//     }
+//     return res
+// }
+// console.log(doubleChar("String"));
+
+
+// 2
+// function sevenBoom (a){
+//     if(a.includes('7')){
+//         return "Boom";
+//     }
+//     return "Not Boom";
+// }
+// console.log(sevenBoom("1,2,3,4,5,6,7,8"));
+
+
+// 3
+// function removesNumbers (str){
+//     return str
+//       .replaceAll(1, "")
+//       .replaceAll(2, "")
+//       .replaceAll(3, "")
+//       .replaceAll(4, "")
+//       .replaceAll(5, "")
+//       .replaceAll(6, "")
+//       .replaceAll(7, "")
+//       .replaceAll(8, "")
+//       .replaceAll(9, "")
+//       .replaceAll(0, "");
+// }
+// console.log(removesNumbers("mubashir1"));
+
+
+// 4
+// function reverse(a) {
+//   let res = a.split("");
+//   let rev = "";
+//   for (let i = res.length - 1; i >= 0; i--) {
+//     if (res[i] == res[i].toUpperCase()) {
+//       rev += res[i].toLowerCase();
+//     }
+//     if (res[i] == res[i].toLowerCase()) {
+//       rev += res[i].toUpperCase();
+//     }
+//   }
+//   return rev;
+// }
+// console.log(reverse("Hello World"));
+
+
+// 5
+// function reverse(a) {
+//     let res = a.split("");
+//     let rev = "";
+//     for(let i = 0; i < res.length; i++) {
+//         if(res[i] != res[i+1]){
+//             rev += res[i]
+//         }
+//     }
+//     return rev
+// }
+// console.log(reverse("hello"));
+
+
+// 6
+// function createCounter(n=0){
+//     return function Counter(m=1){
+//         return (n+=m)
+//     }
+// }
+// const counter1 = createCounter()
+// console.log(counter1());
+// console.log(counter1());
+
+
+// 8
+// function sumCubes(n){
+//     if(n==0){
+//         return 0;
+//     }
+//     return Math.pow(n, 3) + sumCubes(n-1);
+// }
+// console.log(sumCubes(3));
+
+
+// 9
+// function factFact(n){
+//     let cnt = 1
+//     if(n == 1){
+//         return 1
+//     }
+//     for(let i = 1; i <= n; i++){
+//         cnt *= i
+//     }
+//     return cnt * factFact (n - 1)
+// }
+// console.log(factFact(4));
+
+
+// 10
+// function longestWord(a) {
+//   let mx = -9999,
+//     cnt = "";
+//   let res = a.split(" ");
+//   for (let i = 0; i < res.length; i++) {
+//     if (res[i].length > mx) {
+//       mx = res[i].length;
+//       cnt = res[i];
+//     }
+//   }
+//   return cnt;
+// }
+// console.log(longestWord("Hello darkness my old friend"));
