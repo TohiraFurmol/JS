@@ -281,3 +281,17 @@
 // console.log(rangeOfNum(2, 4))
 // console.log(rangeOfNum(5, 9))
 // console.log(rangeOfNum(2, 11))
+
+// let arr1 = [3,2,1,4,5]
+// let arr2 = [3,7,5,8,6,4]
+// function Arry(a,b){
+//     let res = [...a].concat(...b).sort();
+//     let sum = []
+//     for(let i = 0; i < res.length; i++){
+//         if(res[i]!=res[i+1]){
+//             sum.push(res[i])
+//         }
+//     }
+//     return sum
+// }
+// console.log(Arry([3, 2, 1, 4, 5], [3, 7, 5, 8, 6, 4]));
