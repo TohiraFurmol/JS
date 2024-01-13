@@ -1,0 +1,137 @@
+// Task 1
+// function findStudentByGrade(arr,n){
+//     let res = []
+//     for(let i=0;i<arr.length;i++){
+//         res.push(arr[i].grade)
+//     }
+//     for(let i=0;i<res.length;i++){
+//         if (res[i] == n) {
+//             return arr[i];
+//         }
+//     }
+//     return {}
+// }
+// console.log(
+//   findStudentByGrade([
+//     { name: "Alice", grade: "B" },
+//     { name: "Bob", grade: "A" },
+//     { name: "Charlie", grade: "C" },
+//   ],"A")
+// );
+
+
+// Task 2
+// function filterProducts(arr , obj , cot){
+//     let Category = []
+//     let Price = []
+//     for(let i=0; i<arr.length; i++){
+//         Category.push(arr[i].category)
+//     }
+//     for(let i=0; i<arr.length; i++){
+//         Price.push(arr[i].price);
+//     }
+//     for(let i=0;i<Category.length; i++){
+//         if(Category[i]==cot){
+//             for(let n=0; n<Price.length; n++){
+//                 if(Price[n]>obj){
+//                     return arr[i]
+//                 }
+//             }
+//         }
+//     }
+//     return []
+// }
+// console.log(filterProducts( [ { name: "Laptop", price: 800, category:
+// "электроника" }, { name: "Headphones", price: 30, category:
+// "электроника" }, { name: "Book", price: 15, category: "книги" } ],
+// 50, "электроника" ) )
+
+
+// Task 3
+// function sortPeopleByAge(arr){
+//     arr.sort((n,m)=> n.age -m.age)
+//     return arr
+// }
+// console.log(
+//   sortPeopleByAge([
+//     { name: "Anna", age: 25 },
+//     { name: "BOb", age:30 },
+//     { name: "Charlie",age:22 },
+//   ])
+// );
+
+
+// Task 5
+// function calculateAverageGrade ( arr ){
+//     let res = []
+//     let cnt = 0
+//     for ( let i = 0 ; i < arr . length ; i ++ ) {
+//         cnt = 0
+//         arr [ i ] . grades .filter (( el ) => {
+//             return cnt += el
+//         })
+//         res . push ( { 
+//             Alica : cnt / arr [ i ] . grades.length
+//         })
+//     } 
+//     return res
+// }
+// console.log( calculateAverageGrade ([ { name: "Alice"
+// , age: 22, grades: [90, 85, 88]
+// }, { name: "Bob"
+// , age: 20, grades: [75, 92, 80] }, { name: "Charlie"
+// , age:
+// 21, grades: [88, 85, 90] }, ]));
+
+
+// Task 6 
+// function flattenNestedObjects(arr) {
+//   let res = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     res.push(Object.values(arr[i]));
+//   }
+//   for (let i = 0; i < res.length; i++) {
+//     return res[i].concat(res[i + 1]);
+//   }
+// }
+// console.log( flattenNestedObjects ( [ { id: 1, data: { name: "John", age: 25 } }, { id: 2,
+//     data: { name: "Alice", age: 30 } } ] ) );
+
+
+// Task 7
+// function createObjectFromArrays ( obj, m ){
+//     let res = {}
+//             for ( let x in obj){
+//                 values = obj[ x ]
+//                 res [ values ] = m [ x ]
+//             }
+//         return res 
+//     }
+// console.log( createObjectFromArrays ( ["name", "age", "city"], ["Alice", 25, "New York"]));
+
+
+// Task 8
+// function findMaxObjectByValue (n,m) {
+//     let max = -9999
+//     let min = []
+//     for ( let i = 0 ; i <n. length ; i ++ ) {
+//        if ( Object . keys (n[ i ] ).includes (m) ){
+//         if (n[ i ] . age > max ){
+//             min = []
+//             max =n[ i ] . age
+//             min . push (n[ i ] )
+//         }
+//     }
+// }
+//     return min 
+// }
+// console.log( findMaxObjectByValue ([ { name: "Alice", age: 25 }, { name: "Bob",
+// age:30 }, { name: "Charlie", age: 22 },], "age" ) );
+
+
+// Task 9
+// function createObjectFromKey ( arr  ) {
+//     return Object . entries ( arr )
+// }
+// console.log( createObjectFromKey ([{ id: 1, name: "Alice" },{ id: 2, name: "Bob" },{
+//     id: 3, name: "Charlie" }],"id" ) );
