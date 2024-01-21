@@ -283,3 +283,122 @@ Part Two
 //   return cnt;
 // }
 // console.log(longestWord("Hello darkness my old friend"));
+
+___________________________________________________________________________________
+Part Three
+
+// 1
+// function matchHouses(n) {
+//     let x = 6
+//     for (let i = 1; i < n; i++) {
+//         x += 5
+//     }
+//     return x
+// }
+// console.log(matchHouses(1))
+// console.log(matchHouses(4))
+
+
+// 2
+// function rev(n) {
+//     let x = 0;
+//      if (n <= 9) {
+//             return "It’s one digit"
+//     }
+//      else {
+//          for (let i = n; i > 0; i = Math.floor(i /= 10)){
+//              x = x * 10 + i%10;
+//          }
+//          return x;
+//     }
+// }
+// console.log(rev(24));
+// console.log(rev(4));
+
+
+// 3
+// function equal(a, b, c) {
+//     if (a == b && a == c) return 3
+//     else if (a == b || a == c || b == c) return 2
+//     else return 0
+// }
+// console.log(equal(3,4,3));
+// console.log(equal(3,3,3));
+// console.log(equal(3,4,1));
+
+
+// 4
+// function findLargestDigit(n) {
+//     let max = -9999
+//     if (n == 0) {
+//         return 'll digits are equal'
+//     }
+//     else {
+//         for (let i = n; i > 0; i=Math.floor(i /= 10)){
+//             if (i%10 > max) {
+//                 max = i%10
+//             }
+//         }
+//         return `The largest digit in ${n} is ${max}`
+//     }
+// }
+// console.log(findLargestDigit(123));
+// console.log(findLargestDigit(000));
+
+
+// 5
+// function mean(n) {
+//     let cnt=0,sum=0
+//     for (let i = n; i > 0; i = Math.floor(i /= 10)){
+//         cnt++;
+//         sum+=i%10
+//     }
+//     return sum/cnt
+// }
+// console.log(mean(42))
+
+
+// 7
+// function fibonachi(num) {
+//     if (num <= 1) {
+//         return num
+//     } else {
+//         return fibonachi(num - 1) + fibonachi(num - 2)
+//     }
+// }
+// console.log(fibonachi(7));
+
+
+// 8
+// function doubleFactorial (a){
+//   if (a <= 1) {
+//     return 1
+//   }
+//   return a * doubleFactorial(a - 2);
+// }
+// console.log (doubleFactorial (0))
+// console.log (doubleFactorial (2))
+// console.log (doubleFactorial (9))
+
+
+// 9
+// function IsNatural(n) {
+//     if (n % 2 == 0 || n % 2 == 1) {
+//         return true;
+//     }
+//     return false;
+// }
+// console.log(IsNatural(-15));
+// console.log(IsNatural(1));
+// console.log(IsNatural(10/0));
+
+
+// 10
+// function LeapYear(n) {
+//     if (n % 4 == 0 && n % 100 != 0 || n % 400 == 0) {
+//         return true;
+//     }
+//     return false;
+// }
+// console.log(LeapYear(2016));
+// console.log(LeapYear(2023));
